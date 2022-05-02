@@ -8,7 +8,7 @@ metadata:
   labels:
     app: all-clusters-policies
   name: all-clusters-policies-subscription-1
-  namespace: rhacm-gitops-ns
+  namespace: openshift-gitops
 spec:
   channel: rhacm-gitops-ns/github-rhacm-gitops
   placement:

@@ -2,7 +2,7 @@ apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
   name: binding-policy
-  namespace: rhacm-gitops-ns
+  namespace: openshift-gitops
 placementRef:
   name: placementrule-infrastructure-policies
   kind: PlacementRule
