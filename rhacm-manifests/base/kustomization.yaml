@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - namespace-channel-ocpgitops.yaml
+  - channel-openshift-gitops.yaml
+  - placementrule-infrastructure-policies.yaml
+  - policy/policy-auth-provider.yaml
+  - policy/policy-cluster-admin.yaml
+  - policy/policy-remove-kubeadmin.yaml
+  - policy/policy-disable-project-self-provisioning.yaml
+  - policy/policy-monitoring-configmap.yaml
+  - policy/binding-policy.yaml

@@ -1,0 +1,11 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  annotations:
+    apps.open-cluster-management.io/reconcile-rate: high
+  name: github-rhacm-gitops
+  namespace: rhacm-gitops-ns
+spec:
+  type: Git
+  pathname: 'https://github.com/peterparser/policies-rhacm.git'
+  insecureSkipVerify: true
