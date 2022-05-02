@@ -7,3 +7,6 @@ spec:
   clusterConditions:
   - status: "True"
     type: ManagedClusterConditionAvailable
+  clusterSelector:
+    matchLabels:
+      role: app
