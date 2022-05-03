@@ -23,3 +23,6 @@ subjects:
 - name: policy-monitoring-configmap
   kind: Policy
   apiGroup: policy.open-cluster-management.io
+- name: policy-project-self-provisioning
+  kind: Policy
+  apiGroup: policy.open-cluster-management.io
