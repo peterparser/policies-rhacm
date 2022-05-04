@@ -9,7 +9,7 @@ metadata:
     policy.open-cluster-management.io/controls: PR.IP-1 Baseline configuration
 spec:
   complianceType: mustonlyhave
-  remediationAction: inform
+  remediationAction: enforce
   disabled: false
   policy-templates:
   - objectDefinition:
