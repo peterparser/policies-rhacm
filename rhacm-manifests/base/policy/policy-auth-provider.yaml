@@ -33,14 +33,3 @@ spec:
                 mappingMethod: claim
                 name: Local Users 
                 type: HTPasswd
-        - complianceType: mustonlyhave
-          objectDefinition:
-            apiVersion: v1
-            kind: Secret
-            metadata:
-              name: htpass-secret
-              namespace: openshift-config
-            data:
-              htpasswd: |
-                c3VwZXJ1c2VyOiQyeSQwNSRBckV2WnBJZHZpVU9RUUxJZng2Q0plTXdvbjQ2VFpINEtuMUFFYXJHZ1M5L21jS2Z1dy9tQwppbnRlZ3JhdGlvbjokMnkkMDUkZjVFZGN0TS9EOEVpQUkwbnBmWnRhZTRtVmlORFpSQTEubDlUdGgxdkV6SHptZnl1OEtyMG0K
-                
