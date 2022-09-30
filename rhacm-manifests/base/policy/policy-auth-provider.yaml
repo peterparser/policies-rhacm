@@ -33,3 +33,9 @@ spec:
                 mappingMethod: claim
                 name: Local Users 
                 type: HTPasswd
+               - htpasswd:
+                  fileData:
+                    name: test-users
+                mappingMethod: claim
+                name: Test users
+                type: HTPasswd
